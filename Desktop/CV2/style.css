@@ -1,0 +1,47 @@
+.main-text {
+    text-align: center;
+    font-style: oblique;
+    font-size: larger;
+}
+.mainInfo {
+    top: -275px;
+    left: 270px;
+    position: relative;
+}
+.btn {
+    top: -480px;
+    left: 500px;
+    position: relative;
+}
+.phone-info {
+    top: -250px;
+    left: 5px;
+    position: relative;
+}
+.expirience {
+    top: -250px;
+    left: 5px;
+    position: relative;
+}
+.education {
+    top: -250px;
+    left: 5px;
+    position: relative;
+}
+.skill {
+    top: -250px;
+    left: 5px;
+    position: relative;
+}
+.language {
+    top: -250px;
+    left: 5px;
+    position: relative;
+}
+hr {
+    text-align: left;
+    margin-left: 0;
+    width: 55%;
+    position: relative;
+    top: -20px;
+}
