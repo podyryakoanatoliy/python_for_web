@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+{% load static %}
 <head>
-    <link rel="stylesheet" href="style.css">
-    <title>My CV</title>
+  <link rel="stylesheet" href="{% static "firstapp\css\style2.css" %}" />
+  <meta charset="utf-8">
+  <title>Business CV</title>
 </head>
 <body>
 
@@ -12,7 +13,7 @@
     </div>
 
     <div>
-        <img src="!!!.png" width="250" height="250" alt="Alternate Text" />
+        <img src="{% static "images\!!!.png" %}" width="250" height="250" alt="Alternate Text" />
         <div class="mainInfo">
             <h3>Podyryako Anatoliy</h3>
             <h>Programmer</h>
@@ -20,7 +21,7 @@
             <span>Date of birth: 01.06.2002 </span><br />
             <span> Country: Ukraine </span><br />
             <span>City: Cherkasy</span><br />
-            <span> Street: Chekhova, ¹42</span><br /><br />
+            <span> Street: Chekhova, â„–42</span><br /><br />
         </div>
     </div>
     <div class="btn">

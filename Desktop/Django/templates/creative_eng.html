@@ -1,13 +1,13 @@
 ﻿<!DOCTYPE html>
-<html lang="">
+{% load static %}
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="utf-8">
-    <title>СV</title>
+  <link rel="stylesheet" href="{% static "firstapp\css\style.css" %}" />
+  <meta charset="utf-8">
+  <title>Creative_eng</title>
 </head>
 <body>
     <div class="my.image">
-        <img src="photo_2020-09-25_00-02-31.jpg" width="200" height="250">
+        <img src="{% static "images\photo_2020-09-25_00-02-31.jpg" %}" width="250" height="250" alt="Alternate Text" />
     </div>
     <div class="main-text">
         <h1>My CV</h1>
@@ -40,9 +40,9 @@
         <p>I do everything that no other best footballer of our time can do🤣🤣🤣⚽⚽⚽</p>
     </div>
 
-    <div class="switch-language">
-        <button class="btn"><a href="index_ru.html"> RU </a></button>
-        <button class="btn"><a href="index_eng.html"> EN </a></button>
-    </div>
+		<div class="switch-language">
+			<button class="btn"><a href="creative_ru.html"> RU </a></button>
+			<button class="btn"><a href="creative_eng.html"> EN </a></button>
+		</div>
 </body>
 </html>
